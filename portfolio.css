@@ -484,23 +484,23 @@ main {
 /* ============ SET EACH PROJECT'S IMAGE============ */
 
 .single-project-image-1 {
-    background-image: url('./custom\ countdown.jpg');
+    background-image: url('./projects-photos/custom\ countdown.jpg');
 }
 
 .single-project-image-2 {
-    background-image: url('./quote\ generator.jpg');
+    background-image: url('./projects-photos/quote\ generator.jpg');
 }
 
 .single-project-image-3 {
-    background-image: url('./rock\ spock\ scissors.jpg');
+    background-image: url('./projects-photos/rock\ spock\ scissors.jpg');
 }
 
 .single-project-image-4 {
-    background-image: url('./validation\ form.jpg');
+    background-image: url('./projects-photos/validation\ form.jpg');
 }
 
 .single-project-image-5 {
-    background-image: url('./video\ player.jpg');
+    background-image: url('./projects-photos/video\ player.jpg');
 }
 
 .single-project-image-1,
