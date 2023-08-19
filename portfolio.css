@@ -316,8 +316,8 @@ body {
 }
 
 .floating-icon-1 {
-    left: 50%;
-    top: 200px;
+    right: 45%;
+    top: 150px;
     animation: float 9s infinite ease-in-out;
 }
 
@@ -751,6 +751,7 @@ textarea {
         top: 0;
         right: 0;
         backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
     }
 
     .header-hero {
@@ -769,19 +770,23 @@ textarea {
     .floating-icon-3 {
         animation: none;
         position: absolute;
-        left: 0;
+        right: 0;
         top: 0;
         height: fit-content;
         padding: 14px 14px;
         font-size: 28px;
     }
 
+    .floating-icon-1 {
+        top: 5%;
+    }
+
     .floating-icon-2 {
-        left: 30%;
+        top: 15%;
     }
 
     .floating-icon-3 {
-        left: 60%;
+        top: 25%;
     }
 
     .menu-icon-container {
