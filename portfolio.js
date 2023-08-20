@@ -1,5 +1,5 @@
 // Select DOM elements
-const lightModeBtn = document.querySelector('.fa-sun');
+const lightModeBtn = document.querySelector('.fa-lightbulb');
 const navBar = document.querySelector('.header-hero');
 const rightNavbar = document.querySelector('.right-navbar');
 const navLinks = document.querySelectorAll('.nav-link');
@@ -61,12 +61,12 @@ navLinks.forEach((link) => {
 
 // Dark/Light Mode Switch
 function lightModeSwitch () {
-    if(lightModeBtn.classList.contains('fa-sun')) {
-        lightModeBtn.classList.replace('fa-sun', 'fa-moon');
+    if(lightModeBtn.classList.contains('fa-lightbulb')) {
+        lightModeBtn.classList.replace('fa-lightbulb', 'fa-moon');
         document.documentElement.setAttribute('data-theme', 'light');
         localStorage.setItem('theme', 'light');
     } else {
-        lightModeBtn.classList.replace('fa-moon', 'fa-sun');
+        lightModeBtn.classList.replace('fa-moon', 'fa-lightbulb');
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
     }
@@ -118,7 +118,7 @@ function setLightMode() {
         document.documentElement.setAttribute('data-theme', currentTheme);
     }
     if(currentTheme === 'light') {
-        lightModeBtn.classList.replace('fa-sun', 'fa-moon');
+        lightModeBtn.classList.replace('fa-lightbulb', 'fa-moon');
     }
 } 
 

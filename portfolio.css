@@ -145,12 +145,12 @@ body {
     transform: translate(0, -11px) rotate(45deg);
   }
 
-.fa-sun, .fa-moon {
+.fa-lightbulb, .fa-moon {
     color: var(--text-color-1);
     transition: 0.3s transform ease-in-out;
 }
 
-.fa-sun:hover,
+.fa-lightbulb:hover,
 .fa-moon:hover {
     cursor: pointer;
     transform: scale(1.2);
